@@ -9,13 +9,13 @@ int main() {
     
     cout << "Menghitung rata rata Nilai Ujian " << endl;
 
-    cout << "Masukkan nilai_ujian pertama : ";
+    cout << "Masukkan Nilai Ujian pertama : ";
     cin >> nilai_ujian1;
 
-    cout << "Masukkan nilai_ujian kedua : ";
+    cout << "Masukkan Nilai Ujian kedua : ";
     cin >> nilai_ujian2;
 
-    cout << "Masukkan nilai_ujian ketiga : ";
+    cout << "Masukkan Nilai Ujian ketiga : ";
     cin >> nilai_ujian3;
 
     total = nilai_ujian1 + nilai_ujian2 + nilai_ujian3;
