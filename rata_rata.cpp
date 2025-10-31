@@ -4,26 +4,25 @@
 using namespace std;
 
 int main() {
-    double bilangan1, bilangan2, bilangan3;
-    double total;
+    int nilai_ujian1, nilai_ujian2, nilai_ujian3, total;
     double rata_rata;
     
-    cout << "Menghitung rata rata" << endl;
+    cout << "Menghitung rata rata Nilai Ujian " << endl;
 
-    cout << "Masukkan bilangan pertama: ";
-    cin >> bilangan1;
+    cout << "Masukkan nilai_ujian pertama : ";
+    cin >> nilai_ujian1;
 
-    cout << "Masukkan bilangan kedua: ";
-    cin >> bilangan2;
+    cout << "Masukkan nilai_ujian kedua : ";
+    cin >> nilai_ujian2;
 
-    cout << "Masukkan bilangan ketiga: ";
-    cin >> bilangan3;
+    cout << "Masukkan nilai_ujian ketiga : ";
+    cin >> nilai_ujian3;
 
-    total = bilangan1 + bilangan2 + bilangan3;
+    total = nilai_ujian1 + nilai_ujian2 + nilai_ujian3;
     rata_rata = total / 3.0; 
 
-    cout << "Total Penjumlahan: " << total << endl;
-    cout << "Rata-Rata: " << fixed << setprecision(2) << rata_rata << endl;
+    cout << "Total Nilai : " << total << endl;
+    cout << "Rata-Rata Nilai Ujian: " << fixed << setprecision(2) << rata_rata << endl;
 
     return 0;
 }
